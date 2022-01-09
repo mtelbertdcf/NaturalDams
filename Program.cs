@@ -99,6 +99,6 @@ namespace NaturalDams
         
         public int TotalWater => _terrain.Sum(t => t.WaterLevel);
 
-        private static IList<Terrain> _terrain;
+        private IList<Terrain> _terrain;
     }
 }
